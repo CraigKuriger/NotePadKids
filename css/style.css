@@ -1,0 +1,140 @@
+body{
+    font-family: 'Droid Sans', sans-serif;
+	counter-reset:section;
+	left: 0;
+	margin: 80px 30px;
+	position: relative;
+	font-family: 'Roboto';
+}
+
+.navbar {
+    background-color: #EDEDED;
+}
+
+.toplogo {
+	margin-top: 5px;
+	margin-left: 10px;
+    max-height: 40px;
+}
+
+.top-nav {
+    padding: 0 15px;
+    background-color: #EDEDED;
+}
+
+canvas {
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+	background: white;
+	border: 10px solid gray;
+	border-radius: 10px;
+	margin: auto;
+	cursor: url(../img/pencil.png), crosshair;}
+
+
+ul {
+	list-style:none;
+	margin: 0;
+	float: 	left;
+	padding: 10px 0 20px;
+	width: 100%;
+	text-align: center;
+}
+
+
+ul li {
+	height: 60px;
+	width: 60px;
+	border-radius: 20px;
+	cursor: pointer;
+	display: inline-block;
+	margin: 20px;
+	border: 2px solid gray;
+}
+
+ul li:hover {
+	border: 2px solid black;
+}
+
+.selected {
+	border: 7px solid gray;
+	height: 60px;
+	width: 60px;
+}
+
+.selected:hover{
+	border: 7px solid black;
+	height: 60px;
+	width: 60px;
+}
+
+.blue{
+	background: blue;
+}
+
+.red {
+	background: red;
+}
+
+.yellow {
+	background: yellow;
+}
+
+.green {
+	background: green;
+}
+
+.btn {
+	display: block;
+	margin: auto;
+	width: 150px;
+}
+
+.btn:hover{
+	background-color: #F15A29;
+}
+
+
+#colorSelector {
+	display:none;
+}
+
+#newColor {
+	display: block;
+	width: 80px;
+	height: 80px;
+	border-radius: 10px;
+	margin: auto;
+	border: 2px solid gray;
+	margin-top: 20px;
+}
+
+p {
+	max-width: 300px;
+	display: block;
+	margin: auto;
+	padding-bottom: 10px;
+}
+
+label {
+	display: block;
+	margin: auto;
+}
+
+#addNewColor {
+	margin-top: 10px;
+}
+
+.reset {
+	color: black;
+	margin-top: 20px;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+
+
