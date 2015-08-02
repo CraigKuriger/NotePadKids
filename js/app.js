@@ -1,27 +1,5 @@
 $(document).ready(function(){
 
-    /* Show Menu*/
-    $('.icon-menu').click(function() {
-      $('.menu').animate({
-        left: "0px"
-      }, 200);
-
-      $('body').animate({
-        left: "285px"
-      }, 200);
-    });
-
-    /* Hide Menu */
-    $('.icon-close').click(function() {
-      $('.menu').animate({
-        left: "-285px"
-      }, 200);
-
-      $('body').animate({
-        left: "0px"
-      }, 200);
-    });
-
 var color = $(".selected").css("background-color");
 var $canvas = $("canvas")
 var context = $canvas[0].getContext("2d");
