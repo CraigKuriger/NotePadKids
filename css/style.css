@@ -32,6 +32,10 @@ canvas {
 	margin: auto;
 	cursor: url(../img/pencil.png), crosshair;}
 
+canvas:hover {
+	border: 10px solid #F15A29;
+}
+
 
 ul {
 	list-style:none;
@@ -131,7 +135,12 @@ label {
 	margin-top: 20px;
 }
 
+a {
+	color: black;
+}
+
 a:hover {
+	color: black;
 	text-decoration: none;
 }
 
